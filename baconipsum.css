@@ -31,18 +31,42 @@ div {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: ;
-    grid-template-areas: "left mid right";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "left mid right"
+    "left mid right"
+    "ipsum ipsum ipsum";
   }
   .left {
-      width: 200px;
-      height: 400px;
+      width: 90%;
+      height: 100%;
+      text-align: center;
+      border:solid 5px white;
   }
-  .4 {
-    width: 200px;
-    height: 400px;
+  .mid {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    border:solid 5px white;
 }
 .right {
-    width: 200px;
-    height: 400px;
+    width: 90%;
+      height: 100%;
+      text-align: center;
+      border:solid 5px white;
+}
+#blue {
+    grid-area: left;
+    background-color: blue;
+}
+#orange {
+    grid-area: mid;
+    background-color: orange;
+}
+#turq {
+    grid-area: right;
+    background-color: turquoise;
+}
+.ipsum {
+    grid-area: ipsum;
 }
