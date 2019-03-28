@@ -36,47 +36,50 @@ div {
     "ipsumL ipsumM ipsumR";
   }
   .left {
-      grid-area: left;
+      grid-area: left2;
       width: 90%;
       height: 100%;
       text-align: center;
       border:solid 5px white;
   }
   .mid {
-      grid-area: mid;
+      grid-area: mid2;
     width: 90%;
     height: 100%;
     text-align: center;
     border:solid 5px white;
 }
 .right {
-    grid-area: right;
+    grid-area: right2;
     width: 90%;
     height: 100%;
     text-align: center;
     border:solid 5px white;
 }
 #blue {
-    grid-area: left2;
+    grid-area: left;
     background-color: blue;
 }
 #orange {
-    grid-area: mid2;
+    grid-area: mid;
     background-color: orange;
 }
 #turq {
-    grid-area: right2;
+    grid-area: right;
     background-color: turquoise;
 }
 .ipsumL {
     grid-area: ipsumL;
     border: solid 5px red;
+    background-color: aliceblue;
 }
 .ipsumM {
     grid-area: ipsumM;
     border: solid 5px red;
+    background-color: aliceblue;
 }
 .ipsumR {
     grid-area: ipsumR;
     border: solid 5px red;
+    background-color: aliceblue;
 }
