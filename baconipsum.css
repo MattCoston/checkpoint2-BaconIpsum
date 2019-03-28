@@ -1,5 +1,12 @@
+#bold {
+    font-weight: 900;
+}
+h1 {
+    font-weight: 500;
+}
+
 body {
-    background-color: aqua;
+    background-color: black;
 }
 .container  {
     display: flex;
@@ -8,5 +15,34 @@ body {
 div {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    color:white;
+}
+.hero-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #2BCDC0;
+    
+    color: white;
+    font-size: 3em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ;
+    grid-template-areas: "left mid right";
+  }
+  .left {
+      width: 200px;
+      height: 400px;
+  }
+  .4 {
+    width: 200px;
+    height: 400px;
+}
+.right {
+    width: 200px;
+    height: 400px;
 }
