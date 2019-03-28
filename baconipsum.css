@@ -13,9 +13,7 @@ body {
     justify-content: center;
 }
 div {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+
     color:white;
 }
 .hero-text {
@@ -34,37 +32,40 @@ div {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "left mid right"
-    "left mid right"
+    "left2 mid2 right2"
     "ipsumL ipsumM ipsumR";
   }
   .left {
+      grid-area: left;
       width: 90%;
       height: 100%;
       text-align: center;
       border:solid 5px white;
   }
   .mid {
+      grid-area: mid;
     width: 90%;
     height: 100%;
     text-align: center;
     border:solid 5px white;
 }
 .right {
+    grid-area: right;
     width: 90%;
-      height: 100%;
-      text-align: center;
-      border:solid 5px white;
+    height: 100%;
+    text-align: center;
+    border:solid 5px white;
 }
 #blue {
-    grid-area: left;
+    grid-area: left2;
     background-color: blue;
 }
 #orange {
-    grid-area: mid;
+    grid-area: mid2;
     background-color: orange;
 }
 #turq {
-    grid-area: right;
+    grid-area: right2;
     background-color: turquoise;
 }
 .ipsumL {
