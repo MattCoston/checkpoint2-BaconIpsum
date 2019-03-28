@@ -35,7 +35,7 @@ div {
     grid-template-areas: 
     "left mid right"
     "left mid right"
-    "ipsum ipsum ipsum";
+    "ipsumL ipsumM ipsumR";
   }
   .left {
       width: 90%;
@@ -67,6 +67,15 @@ div {
     grid-area: right;
     background-color: turquoise;
 }
-.ipsum {
-    grid-area: ipsum;
+.ipsumL {
+    grid-area: ipsumL;
+    border: solid 5px red;
+}
+.ipsumM {
+    grid-area: ipsumM;
+    border: solid 5px red;
+}
+.ipsumR {
+    grid-area: ipsumR;
+    border: solid 5px red;
 }
