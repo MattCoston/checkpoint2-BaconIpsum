@@ -7,14 +7,21 @@ h1 {
 
 body {
     background-color: black;
+    
+}
+a {
+    text-decoration: none;   
+}
+a:visited {
+    color: white;
 }
 .container  {
     display: flex;
     justify-content: center;
 }
 div {
-
-    color:white;
+ 
+    
 }
 .hero-text {
     display: grid;
@@ -35,30 +42,38 @@ div {
     "left2 mid2 right2"
     "ipsumL ipsumM ipsumR";
   }
-  .left {
-      grid-area: left2;
+   .left { 
+      grid-area: left;
       width: 90%;
-      height: 100%;
+      height: 50%;
       text-align: center;
-      border:solid 5px white;
-  }
-  .mid {
-      grid-area: mid2;
+      border: 2px solid greenyellow;
+  } 
+  .left2 {
+    grid-area: left2;
     width: 90%;
-    height: 100%;
+    height: 50%;
     text-align: center;
-    border:solid 5px white;
+    border: 2px solid greenyellow; */
+  }
+   .mid {
+      grid-area: mid;
+    width: 90%;
+    height: 20%;
+    text-align: center;
+    border: 2px solid greenyellow;
 }
 .right {
-    grid-area: right2;
+    grid-area: right;
     width: 90%;
-    height: 100%;
+    height: 20%;
     text-align: center;
-    border:solid 5px white;
-}
+    border: 2px solid greenyellow;
+} 
 #blue {
-    grid-area: left;
+    grid-area: left2;
     background-color: blue;
+    
 }
 #orange {
     grid-area: mid;
@@ -70,16 +85,19 @@ div {
 }
 .ipsumL {
     grid-area: ipsumL;
-    border: solid 5px red;
+    width: 90%;
+    
     background-color: aliceblue;
 }
 .ipsumM {
     grid-area: ipsumM;
-    border: solid 5px red;
+    width: 90%;
+    
     background-color: aliceblue;
 }
 .ipsumR {
     grid-area: ipsumR;
-    border: solid 5px red;
+    width: 90%;
+    
     background-color: aliceblue;
 }
